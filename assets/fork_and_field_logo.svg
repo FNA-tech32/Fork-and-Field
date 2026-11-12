@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDF73" />
+      <stop offset="50%" stop-color="#FEA116" />
+      <stop offset="100%" stop-color="#E58905" />
+    </linearGradient>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEA116" />
+      <stop offset="100%" stop-color="#B87333" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Emblem / Icon Group -->
+  <g transform="translate(6, 4)">
+    <!-- Outer Shield / Circle with gold border -->
+    <rect x="0" y="0" width="52" height="52" rx="12" fill="#500500" stroke="url(#goldGrad)" stroke-width="2" filter="url(#glow)"/>
+    
+    <!-- Stylized Fork & Wheat/Field -->
+    <g transform="translate(13, 8)">
+      <!-- Fork prongs -->
+      <path d="M5 2 L5 12 M9 2 L9 12 M13 2 L13 12 M17 2 L17 12" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- Fork base -->
+      <path d="M5 12 C5 17, 17 17, 17 12" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <!-- Fork stem -->
+      <path d="M11 16 L11 34" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round"/>
+      
+      <!-- Wheat stalk / Leaf (Field motif) curving around -->
+      <path d="M12 28 Q20 22 19 14 Q23 20 18 26" fill="url(#goldGrad)" opacity="0.95"/>
+      <path d="M12 22 Q4 18 6 11 Q1 17 6 21" fill="url(#goldGrad)" opacity="0.95"/>
+      <path d="M12 16 Q20 12 18 6 Q23 10 18 15" fill="url(#goldGrad)" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(68, 12)">
+    <!-- Main Title -->
+    <text x="0" y="24" font-family="'Montserrat', 'Poppins', sans-serif" font-weight="800" font-size="24" letter-spacing="0.5" fill="#FFFFFF" filter="url(#glow)">
+      Fork<tspan fill="url(#goldGrad)">&amp;</tspan>Field
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="1" y="38" font-family="'Poppins', sans-serif" font-weight="600" font-size="9" letter-spacing="3" fill="url(#goldGrad)">
+      HOTEL &amp; RESTAURANT
+    </text>
+  </g>
+</svg>
+

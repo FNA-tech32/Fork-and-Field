@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFDF73" />
+      <stop offset="50%" stop-color="#FEA116" />
+      <stop offset="100%" stop-color="#E58905" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#6b0801" stroke="url(#favGold)" stroke-width="2.5"/>
+  <g transform="translate(19, 10)">
+    <!-- Fork prongs -->
+    <path d="M4 3 L4 14 M9 3 L9 14 M14 3 L14 14 M19 3 L19 14" stroke="url(#favGold)" stroke-width="2" stroke-linecap="round"/>
+    <path d="M4 14 C4 20, 19 20, 19 14" fill="none" stroke="url(#favGold)" stroke-width="2"/>
+    <path d="M11.5 19 L11.5 40" stroke="url(#favGold)" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Leaf / Field -->
+    <path d="M13 32 Q22 26 21 17 Q25 24 19 30" fill="url(#favGold)"/>
+    <path d="M13 24 Q3 20 6 12 Q0 18 6 23" fill="url(#favGold)"/>
+  </g>
+</svg>
